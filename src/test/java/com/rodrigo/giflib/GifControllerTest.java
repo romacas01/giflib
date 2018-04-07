@@ -11,7 +11,7 @@ public class GifControllerTest {
 
         GifController gifController = new GifController();
 
-        Assert.assertEquals(gifController.listGiffs(), "Listing all the gifs");
+        Assert.assertEquals(gifController.listGiffs(), "home");
     }
 
     @Test
