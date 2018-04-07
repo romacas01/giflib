@@ -10,7 +10,7 @@ public class Gif {
     private String username;
     private boolean favourite;
 
-    public Gif() {}
+    protected Gif() {}
 
     public Gif(String name, LocalDate dateUploaded, String username, boolean favourite) {
         this.name = name;
