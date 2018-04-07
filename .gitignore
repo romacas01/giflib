@@ -1,1 +1,7 @@
 .idea
+.gradle/4.0/fileHashes/fileHashes.bin
+.gradle/4.0/fileHashes/fileHashes.lock
+.idea/modules/giflib_main.iml
+.idea/modules/giflib_test.iml
+.idea/workspace.xml
+gradle/wrapper/gradle-wrapper.properties
