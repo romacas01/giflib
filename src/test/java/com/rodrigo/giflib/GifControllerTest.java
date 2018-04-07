@@ -35,11 +35,11 @@ public class GifControllerTest {
         MockitoAnnotations.initMocks(this);
     }
 
-    @Test
-    public void testListGifs() {
-
-        Assert.assertEquals(gifController.listGiffs(), "home");
-    }
+//    @Test
+//    public void testListGifs() {
+//
+//        Assert.assertEquals(gifController.listGiffs(), "home");
+//    }
 
     @Test
     public void testShowgif() {

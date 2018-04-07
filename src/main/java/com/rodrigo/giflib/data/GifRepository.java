@@ -19,7 +19,7 @@ public class GifRepository {
             new Gif("infinite-andrew", LocalDate.of(2015,8,23), "Marissa Mayer", true)
     );
 
-    public List<Gif> allGifs() {
+    public List<Gif> findAll() {
         return ALL_GIFS;
     }
 
