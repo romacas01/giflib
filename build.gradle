@@ -1,3 +1,10 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'org.springframework.boot' version '1.4.3.RELEASE'
+}
+
 group 'com.rodrigo'
 version '1.0-SNAPSHOT'
 
@@ -10,5 +17,6 @@ repositories {
 }
 
 dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
